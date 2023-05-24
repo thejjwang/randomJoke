@@ -14,17 +14,9 @@ function addToList(){
     let thing = (Object.keys(masterJokes).length +1);
     // Object.assign(masterJokes, {[thing]: input.value});
     masterJokes[thing] = input.value;
+    input.value = "";
 // input for user to enter joke 
 }
-input.addEventListener('keydown', function(event) {
-    if (event.key === 'Enter') {
-      addToList();
-      // clear input
-      input.value = "";
-    }
-  });
-  
-
 
 // the actual button that creates random joke   GIVING ERROR!!!!!!!!!!!
 gimmeJoke.addEventListener('click', createJoke);
