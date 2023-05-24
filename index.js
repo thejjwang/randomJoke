@@ -11,10 +11,11 @@ let masterJokes = {
 addJoke.addEventListener("click", addToList);
 //function to add the input values to the master list
 function addToList(){
-    Object.assign(masterJokes, {4: input.value});
-
-}
+    let thing = (Object.keys(masterJokes).length +1);
+    // Object.assign(masterJokes, {[thing]: input.value});
+    masterJokes[thing] = input.value;
 // input for user to enter joke 
+}
 input.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
       addToList();
