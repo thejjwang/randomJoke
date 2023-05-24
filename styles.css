@@ -1,0 +1,114 @@
+/* 
+h3 {
+    text-align: center;
+    color: maroon;
+}
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to bottom left, #553c9a, #ee4b2b);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+} 
+#gimmeAndJoke {
+    margin: auto;
+}
+button {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover,
+button:focus {
+  background-color: #F082AC;
+}
+ */
+* {
+    margin: auto;
+}
+button {
+    outline: none;
+    border-width: 0px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-weight: 500;
+    max-width: 100%;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.1s ease-out 0s, box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+    background: rgb(0, 82, 204);
+    cursor: pointer;
+    height: 32px;
+    line-height: 32px;
+    padding: 0px 12px;
+    vertical-align: middle;
+    width: auto;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+button:hover {
+    background: rgb(0, 101, 255);
+    text-decoration: inherit;
+    transition-duration: 0s, 0.15s;
+    color: rgb(255, 255, 255);
+}
+input {
+    
+    font-size: 14px;
+    border-radius: 6px;
+    line-height: 1.5;
+    padding: 5px 10px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    display: block;
+    height: 36px
+}
+input:hover {
+    border-color: #ccc;
+    }
+input:focus{
+    border-color: #9147ff;
+    background: #fff;
+    }
+    
+
+
+#addAndInput {
+    margin: auto;
+}
+#gimmeAndJoke {
+    margin: auto;
+}
+h3 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}

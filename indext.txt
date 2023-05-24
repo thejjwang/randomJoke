@@ -1,0 +1,8 @@
+make an app that produces a random joke when you press a button (get a random joke)
+with an input field (input on joke)
+the add button will add the new joke to the master list
+have the jokes stored in an object instead of an array
+html, css, js
+
+create repo and use git workflow
+add ahsan as collabarator 
