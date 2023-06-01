@@ -1,52 +1,4 @@
-/* 
-h3 {
-    text-align: center;
-    color: maroon;
-}
-h1 {
-    text-align: center;
-    font-size: 70px;
-    font-weight: 600;
-    background-image: linear-gradient(to bottom left, #553c9a, #ee4b2b);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-} 
-#gimmeAndJoke {
-    margin: auto;
-}
-button {
-  background-color: #EA4C89;
-  border-radius: 8px;
-  border-style: none;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  height: 40px;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  outline: none;
-  padding: 10px 16px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  transition: color 100ms;
-  vertical-align: baseline;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-button:hover,
-button:focus {
-  background-color: #F082AC;
-}
- */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
 * {
     margin: auto;
 }
@@ -78,7 +30,6 @@ button:hover {
     color: rgb(255, 255, 255);
 }
 input {
-    
     font-size: 14px;
     border-radius: 6px;
     line-height: 1.5;
@@ -97,18 +48,33 @@ input:focus{
     border-color: #9147ff;
     background: #fff;
     }
-    
-
-
-#addAndInput {
-    margin: auto;
-}
+#thisJoke {
+    background: lightgreen;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 50px;
+}    
 #gimmeAndJoke {
-    margin: auto;
-}
-h3 {
-    text-align: center;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    gap: 20px;
 }
 h1 {
+    padding: 30px;
     text-align: center;
+}
+h3 {
+    font-family: 'Comic Neue', cursive;
+}
+#addAndInput {
+    display: flex;
+    padding: 30px; 
+}
+#addJoke {
+    margin-left: -250px;
+}   
+body {
+    background-color: lightgray;
 }
